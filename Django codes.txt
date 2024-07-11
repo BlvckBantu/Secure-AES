@@ -1,0 +1,29 @@
+Django codes
+F:\Django>py -m venv cryptoEnv
+
+F:\Django>cryptoEnv\Scripts\Activate.bat
+
+(cryptoEnv) F:\Django>pip install Django
+
+(cryptoEnv) F:\Django>django-admin startproject cryptoProj
+
+(cryptoEnv) F:\Django>cd cryptoProj
+
+(cryptoEnv) F:\Django\cryptoProj>django-admin startapp cryptoApp
+
+(cryptoEnv) F:\Django\cryptoProj>pip install cryptography twilio
+
+(cryptoEnv) F:\Django\cryptoProj>py manage.py makemigrations
+
+(cryptoEnv) F:\Django\cryptoProj>py manage.py makemigrations
+Migrations for 'cryptoApp':
+  cryptoApp\migrations\0001_initial.py
+    - Create model Message
+
+(cryptoEnv) F:\Django\cryptoProj>py manage.py migrate
+
+(cryptoEnv) F:\Django\cryptoProj>py manage.py runserver
+
+(cryptoEnv) F:\Django>cd cryptoProj
+
+(cryptoEnv) F:\Django\cryptoProj>py manage.py runserver
